@@ -1,6 +1,6 @@
-# Agent0_minotauro
+# Agent0_minotauro_Reinforcement
 ## Sobre o projeto:
-O projeto Agent0_minotauro permite explorar a interação entre um agente e um ambiente.
+O projeto Agent0_minotauro_Reinforcement permite explorar a interação entre um agente e um ambiente.
 O ambiente consiste num tabuleiro retangular de casas quadradas, que podem conter obstáculos, perigos ou objetivos. Para se movimentar neste ambiente, o agente pode deslocar-se em frente ou mudar de direção. O agente, dependendo da sua capacidade, pode também inspecionar o tabuleiro e as suas casas.
 O agente pode usar diversos algoritmos para chegar ao seu objetivo. Para os visualizar, é possível marcar as casas com várias cores.
   
@@ -43,6 +43,3 @@ A configuração do ambiente e do agente é feita no ficheiro **config.json**, a
 ## Erros conhecidos:  
 A interface gráfica do servidor bloqueia enquanto espera pela conexão do cliente. No Windows, por exemplo, é necessário fechar o programa à força caso se queira terminá-lo antes de conectar o cliente.
 
-## Contribuidores:
- - Gil Silva
- - José Cascalho
