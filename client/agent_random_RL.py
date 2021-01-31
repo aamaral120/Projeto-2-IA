@@ -112,7 +112,7 @@ class Agent:
                             qTable.get(str(listaSecreta[x][0]))[directions.index(listaSecreta[x][2])] = listaSecreta[x][3] + gamma * qTable.get(str(listaSecreta[x-1][0]))[directions.index(listaSecreta[x-1][2])]
                     x += 1
                 listaSecreta = []
-        print("QTable new valors:", qTable)
+        print("QTable new values:", qTable)
         self.drawArrows(qTable)
         input("")
 
